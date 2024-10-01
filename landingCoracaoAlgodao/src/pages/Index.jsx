@@ -40,7 +40,6 @@ export default function Index() {
       <section ref={feedbackRef}>
         <Feedback />
       </section>
-      <Footer />
     </>
   );
 }
