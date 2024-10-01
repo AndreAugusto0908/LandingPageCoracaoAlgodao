@@ -18,7 +18,7 @@ export default function Feedback() {
     }
 
     try {
-      const response = await axios.post("http://backlandingcoracao-production.up.railway.app:8080/comentarios", {
+      const response = await axios.post("https://backlandingcoracao-production.up.railway.app/comentarios", {
         email: data.email,
         nota: rating,
         comentario: data.suggestion,
