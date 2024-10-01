@@ -6,11 +6,11 @@ import { ShieldCheck } from "lucide-react";
 import { Award } from "lucide-react";
 
 export const navItems = [
-    { label: "Sobre nós", href: "#" },
-    { label: "Recursos", href: "#" },
-    { label: "Público de interesse", href: "#" },
-    { label: "Prototipo", href: "#" },
-  ];
+  { label: "Sobre nós", section: "sobreNosRef" },
+  { label: "Recursos", section: "recursosRef" },
+  { label: "Público de interesse", section: "publicoAlvoRef" },
+  { label: "Protótipo", section: "prototipoRef" },
+];
 
   export const features = [
     {
